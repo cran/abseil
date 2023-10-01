@@ -1,9 +1,9 @@
-420d4480d3d29aa6c405b58842f8ce7f *DESCRIPTION
+8cc6ab89c352b0d16d218d3eb15695f3 *DESCRIPTION
 dc21c19f0d6968ee25d441b2cf46017d *NAMESPACE
-db68c01222168a014a5a1f8cf04d56bc *NEWS.md
-466c7c9d06489af94ea3d8f33e0f3c94 *R/abseil.R
-e73200e27c0144115377fdb50dd07c21 *README.md
-917fccde1402f755105e227b8a3ca421 *inst/CITATION
+7e6ee17619868d738c2683178273534c *NEWS.md
+b75f4388b7f015caa32d9b71b52496ea *R/abseil.R
+e45c96e832b0613958fc262b7f9b3c67 *README.md
+75ff2b6b4fc1c1c6c7048398be116998 *inst/CITATION
 6671c48969b210874702496cb853fcd3 *inst/include/absl/BUILD.bazel
 9c6b62d3e3da11e3a81201d6a99d4c1a *inst/include/absl/CMakeLists.txt
 2de898606511ac75b6cb508796e6110b *inst/include/absl/abseil.podspec.gen.py
@@ -21,7 +21,7 @@ c0d6f03af34157221b4c2e95f013852b *inst/include/absl/base/bit_cast_test.cc
 81d05c7c54c395a443e245424950a754 *inst/include/absl/base/call_once.h
 e0c86c4e83f1ea235ace6dbba243a28a *inst/include/absl/base/call_once_test.cc
 a3c3c3c975cbf041e0c20f18b3d24246 *inst/include/absl/base/casts.h
-10c04780af3fd448a559a1d8ed4a272e *inst/include/absl/base/config.h
+3c24c1212041ce3f69bafcd3467bbf18 *inst/include/absl/base/config.h
 1670845d7760644679ed90a42c4b6969 *inst/include/absl/base/config_test.cc
 f787189f34e273f4314344b53f5ccae9 *inst/include/absl/base/const_init.h
 b0a7ef61570e527723bb5993405558a8 *inst/include/absl/base/dynamic_annotations.h
@@ -81,7 +81,7 @@ c539936fcdd6094a16fdd58a1f56710e *inst/include/absl/base/internal/spinlock.h
 8c75ee873aa3e514edd1390f3056f89a *inst/include/absl/base/internal/strerror.h
 b4089cfb74709d9a2612e0dc47988b4e *inst/include/absl/base/internal/strerror_benchmark.cc
 7a70551f9fef351177f3ef7167bd6851 *inst/include/absl/base/internal/strerror_test.cc
-7d8cbe8fbbdd112864f27603815fd36a *inst/include/absl/base/internal/sysinfo.cc
+c8063c0d03642361b15a17ac27fd9818 *inst/include/absl/base/internal/sysinfo.cc
 89920866f6792bd96338cb6f9587f3a9 *inst/include/absl/base/internal/sysinfo.h
 c2821efb081724fadeb03ca642f3f227 *inst/include/absl/base/internal/sysinfo_test.cc
 0bd2e8070750adf4fd964cf55411bcf4 *inst/include/absl/base/internal/thread_annotations.h
@@ -766,7 +766,7 @@ e73298b63659e21f9fc6c39b70892874 *inst/include/absl/synchronization/internal/sem
 62414a3dde6e79aabae3a8647ee9de9b *inst/include/absl/synchronization/internal/stdcpp_waiter.cc
 8ec80402cc06d55fe1438ac22e78cc17 *inst/include/absl/synchronization/internal/stdcpp_waiter.h
 6ef821ff0e894111c9eafae3e1e6d1c4 *inst/include/absl/synchronization/internal/thread_pool.h
-b7635fefdd56ffcecbb9a2582847270c *inst/include/absl/synchronization/internal/waiter.h
+6010ff1c571812ffde7709b795330a31 *inst/include/absl/synchronization/internal/waiter.h
 8450035424b87b1063bb24d0c0d4d6cf *inst/include/absl/synchronization/internal/waiter_base.cc
 6b90e0bd52463d42eb37150271809f88 *inst/include/absl/synchronization/internal/waiter_base.h
 7bf5283d30903b97d6729ff483524012 *inst/include/absl/synchronization/internal/waiter_test.cc
@@ -1473,4 +1473,4 @@ ece611a6ca6c9ccf9c28650ea2c099c0 *inst/include/absl/utility/BUILD.bazel
 df8159480b75d1f54ac378d666c8bd22 *inst/include/absl/utility/internal/if_constexpr_test.cc
 9b15fdb150cb72ea63d34d08fffd39c2 *inst/include/absl/utility/utility.h
 514dfcb1b92275af6b1525a9cd1cb1eb *inst/include/absl/utility/utility_test.cc
-e01216f29de5cf8f9b3bff9f731ef611 *man/abseil-package.Rd
+34c82647d17cbf6a951eeca29ddb4d9a *man/abseil-package.Rd

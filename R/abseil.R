@@ -8,6 +8,7 @@
 #' @name abseil
 #' @rdname abseil-package
 #' @examples
+#' \donttest{
 #' Rcpp::cppFunction(r"{
 #'   #include "absl/strings/str_join.h"
 #'   std::string joinString() {
@@ -15,5 +16,7 @@
 #'     return absl::StrJoin(v, "-");
 #'   }
 #' }", depends = "abseil")
+#'
 #' joinString()
+#' }
 NULL

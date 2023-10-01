@@ -10,6 +10,7 @@ Wraps the 'Abseil' 'C++' library for use by R packages. Original files are
   <https://github.com/doccstat/abseil-r/tree/main/local/patches>.
 }
 \examples{
+\donttest{
 Rcpp::cppFunction(r"{
   #include "absl/strings/str_join.h"
   std::string joinString() {
@@ -17,5 +18,7 @@ Rcpp::cppFunction(r"{
     return absl::StrJoin(v, "-");
   }
 }", depends = "abseil")
+
 joinString()
+}
 }
